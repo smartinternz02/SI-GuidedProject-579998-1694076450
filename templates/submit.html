@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Estimation of Smoke</title>
+        <link rel="stylesheet"  href="/static/style2.css">
+        <style>
+           .div1{
+            background-color: rgb(135, 135, 143);
+            float: left;
+            width: 700px;
+           }
+           .div2{
+            background-color: rgba(155, 12, 12, 0.451);
+            float:right;
+            width: 700px;
+           }
+          
+        </style>
+      </head>
+      <body>
+<form action="/result" method="post">
+    <div class="div1">
+    <fieldset>
+      <legend>General Information</legend>
+      <label for="ID">ID</label>
+      <input name="ID" required>
+      <label for="Gender">Gender</label>
+      <input name="Gender" required>
+      <label for="Age">Age</label>
+      <input name="Age" required>
+      <label for="Height">Height</label>
+      <input name="Height(cm)">
+      <label for="Weight">Weight</label>
+      <input name="Weight(kg)">
+      <label for="Eyesight_right">Eyesight_right</label>
+      <input name="Eyesight (right)">
+      <label for="Eyesigh_left">Eyesight_left</label>
+      <input name="Eyesight (left)">
+      <label for="Hearing_right">Hearing_right</label>
+      <input name="Hearing (right)">
+      <label for="Hearing_left">Hearing_left</label>
+      <input name="Hearing (left)">
+      <label for="Waist">Waist</label>
+      <input name="Waist(cm)">
+      <label for="Hemoglobin">Hemoglobin</label>
+      <input name="Hemoglobin">
+      <label for="ALT">ALT</label>
+      <input name="ALT">
+      <label for="gtp">gtp</label>
+      <input name="gtp">
+    </fieldset></div>
+    <div class="div2">
+    <fieldset>
+      <legend>Person Details</legend>
+      <label for="systolic">systolic</label>
+      <input name="systolic" required>
+      <label for="relaxation">relaxation</label>
+      <input name="relaxation" required>
+      <label for="fasting blood sugar">fasting blood sugar</label>
+      <input name="fasting blood sugar" required>
+      <label for="Cholesterol">Cholesterol</label>
+      <input name="Cholesterol">
+      <label for="triglyceride">triglyceride</label>
+      <input name="triglyceride">
+      <label for="urine protien">urine protien</label>
+      <input name="urine protien">
+      <label for="HDL">HDL</label>
+      <input name="HDL">
+      <label for="LDL">LDL</label>
+      <input name="LDL">
+      <label for="oral">oral</label>
+      <input name="oral">
+      <label for="dental caries">dental caries</label>
+      <input name="dental caries">
+      <label for="serum creatinine">serum creatinine</label>
+      <input name="serum creatinine">
+      <label for="AST">AST</label>
+      <input name="AST">
+      <label for="tartar">tartar</label>
+      <input name="tartar">
+    </fieldset>
+    <input type="submit" value="Submit">
+    </div>
+  </form>
+  </html>
